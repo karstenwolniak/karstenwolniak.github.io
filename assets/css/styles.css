@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font: normal 1.375em sans-serif;
+  color: #555; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.9; }
+
+a:hover {
+  opacity: 1; }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 125px 100px;
+  position: relative;
+  justify-content: center;
+  min-height: 100vh;
+  color: #2F005C;
+  text-align: center; }
+  main ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+  main li {
+    display: inline; }
+  main a {
+    font-size: 4em; }
+  main .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("http://i.imgur.com/d6k1iBy.jpg");
+    background-color: #AA68E9;
+    z-index: -1; }
+  main .background-image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    opacity: 0.25; }
+
+/*# sourceMappingURL=styles.css.map */
